@@ -83,7 +83,7 @@ class CounterViewController:UIViewController {
             button.backgroundColor = UIColor.orangeColor()
             button.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
             button.setTitleColor(UIColor.blackColor(), forState: UIControlState.Highlighted)
-            button.addTarget(self, action: "timeButtonTapped", forControlEvents: UIControlEvents.TouchUpInside)
+            button.addTarget(self, action: "timeButtonTapped:", forControlEvents: UIControlEvents.TouchUpInside)
             
             buttons.insert(button,atIndex: index)
             self.view.addSubview(button)
